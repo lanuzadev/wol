@@ -1,0 +1,17 @@
+# Credenciales y parámetros de la red local
+WoL/config.local.h
+.env
+.env.*
+!.env.example
+
+# Archivos de trabajo y claves
+*.pem
+*.key
+*.p12
+*.log
+Thumbs.db
+.DS_Store
+
+# Capturas originales con datos privados
+telebot.png
+telegrma.png
