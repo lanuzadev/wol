@@ -1,6 +1,6 @@
 # Wake-on-LAN con ESP32 y Telegram
 
-![Recorrido de Telegram al ESP32 y de la red local a la PC](1.jpg)
+![Recorrido de Telegram al ESP32 y de la red local a la PC](1.png)
 
 Este proyecto usa un **ESP32 conectado a Wi-Fi** para recibir `/wake` desde un bot de Telegram y enviar un paquete Wake-on-LAN a la tarjeta de red de una PC. El teléfono puede estar fuera de casa: Telegram entrega el comando por internet, mientras que el ESP32 **debe permanecer en la misma red local** que la PC. La imagen inicial resume esa ruta; el paquete no pasa directamente del teléfono a la PC.
 
